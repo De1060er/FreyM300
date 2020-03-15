@@ -68,14 +68,14 @@ end
 ```
 ## **Bilder**
 ***
-![Ergebnis](C:/Users/vitof/Desktop/M300/Repository/FreyM300/Nginx2/Bilder/Welcome_Nginx.png)
+![Ergebnis](https://github.com/De1060er/FreyM300/tree/master/Nginx2/Bilder/Welcome_Nginx.png)
 Nach der Installation sollte unser Webserver ansprechbar sein. Wir können nun einen Internet-Browser öffnen und mit **LOCALHOST:7999** sollte sich diese Seite öffnen.
 
 ### **Ausbau**
 Nun ist der Webserver einsatzbereit und sollte bereit sein neue Seiten zu hosten. Ich habe mir überlegt die Standard-HTML Seite zu ändern, natürlich sollte dies mit einem Script passieren und nicht von Hand.
 
 Es hat sich herausgestellt das in Nginx die einzelnen Seiten zu stark verlinkt sind und es mehrere Config-Dateien gibt. Nach längerem herumprobieren hat es dan für ein paar mal geklappt die Index.html seite zu ändern und diese auch wieder aufzurufen im Browser. Teilweise hat vagrant beim aufsezten ein bisschen Probleme verursacht und es kam zu Errors. *(Siehe Bild unten - Eigentliche neue Seite )*
-![Ergebnis](C:/Users/vitof/Desktop/M300/Repository/FreyM300/Nginx2/Bilder/Welcome.png)
+![Ergebnis](https://github.com/De1060er/FreyM300/blob/master/Nginx2/Bilder/Welcome.PNG)
 
 In einem Weiterem Skript wollte ich die Standart Index.html Seite, welche von Nginx mitgegeben wird ändern. Mit Folgendem Befehl sollte die Index.html Seite überschrieben werden mt einem anderem Text und anderer Farbe. Danach musste der Nginx-Service neugestartet werden. Erst dann hätten die Änderungen ersichtlich sein können.
 ```html
