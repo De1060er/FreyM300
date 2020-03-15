@@ -68,7 +68,7 @@ end
 ```
 ## **Bilder**
 ***
-![Ergebnis](https://github.com/De1060er/FreyM300/tree/master/Nginx2/Bilder/Welcome_Nginx.png)
+![Ergebnis](https://github.com/De1060er/FreyM300/blob/master/Nginx2/Bilder/Welcome_Nginx.PNG)
 Nach der Installation sollte unser Webserver ansprechbar sein. Wir können nun einen Internet-Browser öffnen und mit **LOCALHOST:7999** sollte sich diese Seite öffnen.
 
 ### **Ausbau**
