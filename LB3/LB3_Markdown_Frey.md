@@ -42,11 +42,11 @@ docker run --rm -d -p 8080:80 -v `pwd`/web:/var/www/html --name apache apache
 ```
 ## **Bilder**
 ***
-![Ergebnis](C:/Users/vitof/Desktop/M300/Repository/FreyM300/LB3/Bilder/7.png)
+![Ergebnis](https://imgur.com/f4qEGqf)
 
 Zum Schluss habe ich noch getestet ob die Standart HTML-Seite aufrufbar ist. Zum Glück hat alles so einwandfrei funkioniert und ich hatte im Vergleich zu Vagrant viel weniger Fehler und Unterbrechungen.
 
-![Ergebnis](https://github.com/De1060er/FreyM300/tree/master/LB3/Bilder/8.PNG)
+![Ergebnis](https://imgur.com/NGTbKGR)
 Hier sehen Sie den Netzadapter/ IP-Adresse welche in diesem Fall für PUTTY verwendet wurde. Lässt sich mit folgendem Befehl auslesen.
 ```
 ifconfig -a
