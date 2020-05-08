@@ -42,7 +42,7 @@ docker run --rm -d -p 8080:80 -v `pwd`/web:/var/www/html --name apache apache
 ```
 ## **Bilder**
 ***
-![Ergebnis](LB3/Bilder/8.PNG)
+![Ergebnis](LB3/Bilder/8.png)
 
 Zum Schluss habe ich noch getestet ob die Standart HTML-Seite aufrufbar ist. Zum Glück hat alles so einwandfrei funkioniert und ich hatte im Vergleich zu Vagrant viel weniger Fehler und Unterbrechungen.
 
